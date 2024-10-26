@@ -1,0 +1,31 @@
+h1, h2, h3, h4, strong {
+    color: rgb(254, 79, 63);
+}
+
+body {
+    margin: 5%;
+    line-height: 1.5;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    color: #E51829;
+}
+
+.green {
+    color: #12EB6C;
+}

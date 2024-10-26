@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Essa página é para o DM - a pessoa narrando o jogo.</p>
+    <p>Caso esteja no modo speedrun, escolha os 5 quartos que achar mais legais e divida a vida do chefe em 2.</p>
+
+    <p>Sinta-se a vontade para mudar qualquer coisa dos itens gerados se achar melhor.</p>
+    <div class="input-group">
+        <span class="input-group-text" id="basic-addon1" style="width: 50%"><strong>Nº Jogadores</strong></span>
+        <input type="number" name="players" id="players" min="2" max="6" value="4" style="width: 50%; text-align: center;">
+    </div>
+    <button type="button" id="gen-btn" class="btn btn-success" style="width: 100%; margin-top: 5px;">Gerar</button>
+    
+    <div id="rooms" style="margin-top: 10px">
+        <!-- salas geradas aqui -->
+    </div>
+
+    <div class="input-group" style="margin-top: 20px;">
+        <span class="input-group-text" id="basic-addon1" style="width: 50%"><strong>Rolar d6</strong></span>
+        <input type="number" name="dice" id="dice" min="1" value="1" style="width: 50%; text-align: center;">
+    </div>
+    <button type="button" id="dice-btn" class="btn btn-success" style="width: 100%; margin-top: 5px;">Gerar</button>
+
+    <div id="rolls" style="margin-top: 10px">
+        <!-- rolagens -->
+    </div>
+
+    <!-- código generativo -->
+    <script src="gen.js"></script>
+</body>
+</html>
