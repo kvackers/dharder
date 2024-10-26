@@ -27,12 +27,12 @@ const classes = [
     special: [
       "Praguejar",
       "Você amaldiçoa um grupo de monstros em nome do seu patrono.\n" +
-        "O DM põe um timer de 60 s, você ganha um dado para cado insulto único que fizer. Cada vez que alguém cuspir a bebida, você ganha um dado extra.",
+        "O DM põe um timer de 60 s, você ganha um dado para cada insulto único que fizer. Cada vez que alguém cuspir a bebida, você ganha um dado extra.",
     ],
     id: 1,
   },
   {
-    name: "Lutador Padrão",
+    name: "Guerreiro Padrão",
     bonus: "Ganhe um dado para ações chatas ou padrão",
     equipment: [
       "Espada enorme",
@@ -44,7 +44,7 @@ const classes = [
     ],
     special: [
       "Sabre Sem Sal",
-      "Você solta sua habilidade marcial em um display de monotonia que faz monstros soltarem dados.\n" +
+      "Você solta sua habilidade marcial em uma mostra de monotonia que faz monstros soltarem dados.\n" +
         "Escolha um número de dados da sua pilha e os role. Para cada 6, role o dado de novo: se der 3 ou menos, você ganha um dado adicional.",
     ],
     id: 2,
@@ -113,14 +113,14 @@ const classes = [
     id: 6,
   },
   {
-    name: "Ladino Edgelord",
-    bonus: "Ganhe um dado para ações que te lembram da sua backstory",
+    name: "Ladino Trevoso",
+    bonus: "Ganhe um dado para ações que te lembram do seu passado",
     equipment: [
       "Adagas",
       "Facas de atirar",
       "Uma mochila fedorenta",
       "Um bigode charmoso",
-      "Uma backstory tão edgy que você pode usá-la pra se barbear",
+      "Um passado tão edgy que você pode usá-lo pra se barbear",
     ],
     special: [
       "Ataque Furtivo",
